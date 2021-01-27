@@ -1,0 +1,66 @@
+/* .navbar-nav1>li{
+    padding-right: 27px;
+    padding-top: 5px;
+    
+}
+.navbar-nav1{
+    float:right
+    
+}
+.text1{
+    padding-top: 5px;
+    padding-right: 2px;
+}
+.navbar-nav1 .active a{
+    background-color:blue;
+    color: white;
+}
+.navbar-nav1 li a:hover{
+    background-color:blue;
+    color: white;
+}
+.navbardashboard{
+    border: 2px solid;
+} */
+
+.swal-button {
+  background-color: #444a93;
+}
+.swal-button:not([disabled]):hover {
+  background-color: #0062cc;
+}
+/* .swal-button {
+  background-color: blue !important;
+} */
+.swal-button--cancel {
+  background-color: lightslategray !important;
+  color: white !important;
+}
+.navbardashboard {
+  border: 2px solid blue;
+  border-radius: 11px;
+}
+/* .swal-button--cancel {
+  color: white;
+} */
+@media (max-width: 992px) {
+  .card .list-group .list-group-item .row {
+    display: grid;
+  }
+}
+.react-confirm-alert-overlay {
+  background: rgba(22, 4, 100, 0.5);
+}
+.react-confirm-alert {
+  background: rgb(5, 4, 80);
+}
+
+.add-dialog-buttons {
+  background: rgba(22, 4, 100, 0.5);
+}
+.add-dialog-buttons button + button {
+  background: rgba(22, 4, 100, 0.5);
+}
+.react-confirm-alert-buttons {
+  background: rgba(22, 4, 100, 0.5);
+}

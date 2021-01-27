@@ -1,0 +1,13 @@
+.watch_image {
+  cursor: pointer;
+  height: 154px;
+  padding-left: 37%;
+}
+.watch_image1 {
+  height: 450px;
+  width: 100%;
+}
+
+.react-time-picker__clock {
+  display: none;
+}

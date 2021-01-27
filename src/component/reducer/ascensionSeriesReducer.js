@@ -1,0 +1,28 @@
+import {
+  SAVE_TEMPLATE_ASCENSION_SERIES,
+  UPDATE_COMPAIGN,
+} from "../actions/allActions";
+
+const initialSate = {
+  templateFormArray: [],
+  update_response: "",
+};
+const ascensionSeriesReducer = (state = initialSate, action) => {
+  switch (action.type) {
+    case SAVE_TEMPLATE_ASCENSION_SERIES: {
+      return {
+        ...state,
+        templateFormArray: action.response,
+      };
+    }
+    case UPDATE_COMPAIGN: {
+      return {
+        ...state,
+        update_response: action.response,
+      };
+    }
+    default:
+      return state;
+  }
+};
+export default ascensionSeriesReducer;
